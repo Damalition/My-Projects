@@ -1,0 +1,87 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --border-radius: 4px;
+  --center-align: center;
+}
+
+body {
+  margin: 60px auto;
+}
+
+h1,
+h2,
+h3 {
+  text-align: var(--center-align);
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: var(--center-align);
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: var(--border-radius);
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-color);
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.email-link {
+  display: flex;
+  justify-content: var(--center-align);
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.primary-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  padding: 20px;
+  color: var(--secondary-color);
+}
